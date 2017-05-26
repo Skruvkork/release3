@@ -41,7 +41,9 @@ header {
 	padding: 0 2em 0 2em;
 	margin: auto;
 	overflow: hidden;
-	text-align: center;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
 }
 
 .masthead {
@@ -79,27 +81,20 @@ header {
 	display: inline-block;
 }
 
-@media screen and (min-width: 700px) {
-	.banner-content {
-		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-	}
-}
+/*@media screen and (min-width: 700px) {
+
+}*/
 
 .searchform {
 	margin-bottom: 15px;
 }
 
 .searchform div {
-	width: 100%;
 	display: flex;
 }
 
-.searchform input[type="text"] {
+.searchform input[type="search"] {
 	color: #1c1c1c;
-	font-size: 1.2em;
-	height: 28px;
 	flex: 4;
 }
 
@@ -109,7 +104,6 @@ header {
 
 .searchform input[type="submit"] {
 	flex: 1;
-	height: 34px;
 }
 
 .post {

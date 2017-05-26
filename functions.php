@@ -13,3 +13,5 @@ function search_filter($query) {
 }
 
 add_filter('pre_get_posts','search_filter');
+
+add_filter('show_admin_bar', '__return_false');
