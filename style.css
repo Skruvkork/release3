@@ -1,0 +1,141 @@
+/*
+Theme Name: Bästa Temat
+Description: Allegedly the best Wordpress theme ever made
+Tags: best, perfect, look, no, further
+*/
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+	background: #fdfdfd;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans' , sans-serif;
+	line-height: 1.3em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.page-wrapper {
+	max-width: 900px;
+	padding: 2em;
+	margin: auto;
+}
+
+/*HEADER*/
+header {
+	background-color: #42769d;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.banner-content {
+	max-width: 900px;
+	padding: 0 2em 0 2em;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.masthead {
+	font-size: 2em;
+	color: #ebebeb;
+}
+
+.masthead:hover {
+	text-decoration: none;
+}
+
+.masthead:visited {
+	color: #f7f7f7;
+}
+
+#menu-main-menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li {
+	display: inline;
+	text-transform: uppercase;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+.menu li a {
+	color: #f7f7f7;
+}
+
+.menu-main-menu-container {
+	display: inline-block;
+}
+
+@media screen and (min-width: 700px) {
+	.banner-content {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+}
+
+.searchform {
+	margin-bottom: 15px;
+}
+
+.searchform div {
+	width: 100%;
+	display: flex;
+}
+
+.searchform input[type="text"] {
+	color: #1c1c1c;
+	font-size: 1.2em;
+	height: 28px;
+	flex: 4;
+}
+
+.searchform input[type="text"]::placeholder {
+	content: "Sök bland blogginlägg..."
+}
+
+.searchform input[type="submit"] {
+	flex: 1;
+	height: 34px;
+}
+
+.post {
+	border: 1px #ccc solid;
+	padding: 0 10px 10px;
+	box-shadow: #bbb 0 2px 3px;
+	margin-bottom: 15px;
+}
+
+.post .info {
+	margin: 0 -10px -10px;
+	padding: 5px;
+	background: #eee;
+}
+
+footer {
+	text-align: center;
+}
+
+.spinner-container {
+	height: 50vh;
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.spinner {
+	margin-top: 25vh;
+	color: #999;
+}
